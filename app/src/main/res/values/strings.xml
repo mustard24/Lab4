@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lab4</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tip_calculator">Tip Calculator</string>
+    <string name="miles_to_kilo_calculator">Miles To Kilo Calculator</string>
+    <string name="farenheit_to_celsius_text">Farenheit To Celsius</string>
+    <string name="temperature_in_farenheit">Temperature in Farenheit</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="kilometers">Kilometers:</string>
+    <string name="n_a">N/A</string>
+    <string name="total">Total:</string>
+    <string name="tip_percentage">Tip Percentage:</string>
+    <string name="textview">TextView</string>
+    <string name="textview">TextView</string>
+    <string name="number_of_people">Number of People:</string>
+</resources>
