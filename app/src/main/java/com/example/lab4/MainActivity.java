@@ -8,9 +8,12 @@ import com.google.android.material.snackbar.Snackbar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.android.material.tabs.TabLayout;
@@ -58,16 +61,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-    public void calculate(View view){
-        TextView fahrenheitText =  (TextView) findViewById(R.id.editFarenheitText);
-        TextView celsiusBox = (TextView) findViewById(R.id.celsiusAnswer);
 
-        double fahrenheit = Double.valueOf(fahrenheitText.getText().toString());
-        Double celsius = (fahrenheit - 32) * 5 / 9;
-
-        celsiusBox.setText(celsius.toString());
-
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

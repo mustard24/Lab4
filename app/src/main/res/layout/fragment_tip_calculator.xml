@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/Tip Calculator"
+            android:id="@+id/TipCalculator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/tip_calculator"
@@ -46,7 +46,7 @@
             android:ems="10"
             android:inputType="numberDecimal"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Tip Calculator"
+            app:layout_constraintTop_toBottomOf="@+id/TipCalculator"
             android:autofillHints="" />
 
         <TextView
@@ -98,6 +98,16 @@
             app:layout_constraintEnd_toStartOf="@+id/peopleField"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tipPercentage" />
+
+        <Button
+            android:id="@+id/tipButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/calculate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tipCalculated" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
